@@ -13,6 +13,12 @@
             display: flex;
             justify-content: center;
         }
+        .fieldContainer{
+            display: grid;
+            justify-content: center;
+            width: auto;
+        }
+        
         h2{
             text-align: center;
         }
@@ -48,7 +54,7 @@
 <body>        
     <h2>Validating Web Forms</h2>
     <div class="container">
-        <div>
+        <div class="fieldContainer">
         <fieldset class="first-name" id="field">
             <legend class="">First Name</legend>
             <input type="text" class="text-field" id="firstname" placeholder="First Name"/>
